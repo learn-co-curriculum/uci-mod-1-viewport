@@ -1,6 +1,11 @@
 # The Viewport Property
 
-## Problem Statement
+## Learning Goals
+
+- Describe the `width` property of viewport meta tag
+- Describe the `initial-scale` property of viewport meta tag
+
+## Introduction
 
 Have you ever visited a website on your phone where it will zoom out
 and everything on the page is very tiny--then you have to zoom in to
@@ -10,12 +15,7 @@ various sized screens, just to have the device itself ignore them and
 out on your website? How can we have control over these default features
 that mobile browsers enforce?
 
-## Objectives
-
-1. Explain the `width` property of viewport meta tag
-2. Explain the `initial-scale` property of viewport meta tag
-
-## Explain the `width` Property of Viewport Meta Tag
+## Describe the `width` Property of Viewport Meta Tag
 
 Some devices are automatically set to zoom in or zoom out in order to show
 content correctly.  Mobile devices, in particular, may zoom out to fit an entire
@@ -31,7 +31,7 @@ We achieve this by using the viewport meta tag inside of our html head section:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-## Explain the `initial-scale` Property of Viewport Meta Tag
+## Describe the `initial-scale` Property of Viewport Meta Tag
 
 You will want to specify that the width of our viewport should only be *exactly*
 as wide as the device. Set its initial scale to 1.0--indicating that the device's
@@ -66,5 +66,3 @@ in or out on this content and breaking the layout.
 ## Resources
 
 * [Using the viewport meta tag to control layout on mobile](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/viewport' title='Viewport'>Viewport</a> on Learn.co and start learning to code for free.</p>
